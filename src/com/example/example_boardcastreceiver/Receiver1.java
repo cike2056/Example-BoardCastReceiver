@@ -10,7 +10,7 @@ public class Receiver1 extends BroadcastReceiver{
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		// TODO Auto-generated method stub
-		intent.getAction();
-		Toast.makeText(context, "Receiver1"+intent.getAction(), 0).show();
+		Toast.makeText(context, intent.getAction()+"  REceiver1", 0).show();
 	}
+
 }
